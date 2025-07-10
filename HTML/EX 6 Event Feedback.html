@@ -1,0 +1,11 @@
+<input type="text" id="phone" placeholder="Phone Number" onblur="validatePhone()">
+<select onchange="showFee(this)">
+  <option value="">Choose Event</option>
+  <option value="100">Music - ₹100</option>
+  <option value="200">Sports - ₹200</option>
+</select>
+<p id="fee"></p>
+<img src="event.jpg" ondblclick="this.style.width='400px';">
+<textarea id="feedback" onkeyup="countChars()"></textarea>
+<p id="charCount"></p>
+<button onclick="alert('Thanks for feedback!')">Submit</button>
