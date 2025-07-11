@@ -1,0 +1,17 @@
+body {
+  background: #ffffff url('background.jpg') no-repeat center center fixed;
+  background-color: #f0f0f0; /* fallback color */
+}
+
+header {
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  color: white;
+}
+
+h1 {
+  color: #ff5733; /* HEX */
+}
+
+p {
+  background-color: rgba(255, 0, 0, 0.2); /* RGBA */
+}
